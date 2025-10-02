@@ -1,124 +1,146 @@
-/* General Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  background: #fff;
-  color: #000;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
 }
 
 /* Header Section */
 .header {
-  background: #991f1f;
-  color: #fff;
-  padding: 30px 40px;
-  position: relative;
+    background: linear-gradient(135deg, #a53434 0%, #7a2828 100%);
+    color: white;
+    padding: 40px 50px 80px 50px;
+    position: relative;
 }
-.header .logo img {
-  width: 80px;
-  margin-bottom: 15px;
+
+.logo {
+    margin-bottom: 30px;
 }
-.header .main-title {
-  font-size: 48px;
-  font-weight: bold;
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    padding: 1px;
 }
-.header .subtitle {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: black;
-  margin-top:  1px;
+
+.main-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
 }
-.header .description {
-  font-size: 14px;
-  margin-bottom: 10px;
-  max-width: 800px;
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #000000;
 }
-.header .corner-cut {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 60px solid white;
-  border-left: 40px solid transparent;
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 900px;
+    color: white;
+}
+
+.corner-cut {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 80px 80px;
+    border-color: transparent transparent white transparent;
 }
 
 /* Content Section */
 .content {
-  padding: 50px;
+    background-color: #f5f5f5;
+    padding: 40px 50px;
 }
 .section {
-  margin-bottom: 60px;
-  text-align: left;
+    margin-bottom: 60px;
 }
 .section-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  display: inline-flex; 
-  align-items: center;
-  gap: 12px;
-  text-transform: uppercase;
-
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
 }
-/* Left side red triangle image */
 .section-title img {
-  width: 25px;
-  height: 25px;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
 }
-
-/* Row of clubs */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    color: black;
+}
 .row {
-  display: flex;
-  justify-content: center; 
-  gap: 40px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .col {
-  text-align: center;
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
 }
 .club-logo {
-  width: 100px;
-  margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
 }
 .club-text {
-  font-size: 14px;
-  line-height: 1.4;
+    font-size: 0.95rem;
+    line-height: 1.4;
 }
 .red-text {
-  color: #b61c1c;
-  font-weight: bold;
+    color: #a53434;
+    font-weight: bold;
 }
 .black-text {
-  color: #000;
-  font-weight: bold;
+    color: black;
+    font-weight: normal;
 }
-
 
 /* Footer Section */
 .footer {
-  background: #991f1f;
-  color: #fff;
-  padding: 40px;
-  font-size: 22px;
-  font-weight: bold;
-  text-align: left;
-  position: relative;
-  line-height: 1.4;
-  text-transform: uppercase;
+    background: linear-gradient(135deg, #a53434 0%, #7a2828 100%);
+    color: white;
+    padding: 60px 50px;
+    position: relative;
+    text-align: left;
+}
+.footer-text {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.4;
+    max-width: 600px;
 }
 .footer .corner-cut {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 100px 100px;
-  border-color: transparent transparent white transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 80px 80px;
+    border-color: transparent transparent white transparent;
 }
