@@ -140,3 +140,29 @@ body {
     border-width: 0 0 100px 100px;
     border-color: transparent transparent white transparent;
 }
+/* Tablet (width  992px) */
+@media (max-width: 992px) {.header {padding: 20px 60px;text-align: center;}
+  .main-title {font-size: 2.5rem;}
+  .subtitle {font-size: 1.2rem;}
+  .description {font-size: 0.95rem;margin: 0 auto 30px auto;}
+  .row {padding: 0 30px;justify-content: center;}
+  .footer {padding: 40px 60px;text-align: center;}
+  .footer-text {font-size: 2rem;}
+}
+
+/* Mobile (width  600px) */
+@media (max-width: 600px) {.header {padding: 20px;text-align: center;}
+  .logo img {width: 60px;height: 60px;}
+  .main-title {font-size: 2rem;}
+  .subtitle {font-size: 1rem;}
+  .description {font-size: 0.9rem;padding: 0 10px;}
+  .section-title {font-size: 2rem;justify-content: center;}
+  .section-title img {margin-left: 0;width: 30px;height: 30px;}
+  .row {flex-direction: column;align-items: center;padding: 0 10px;}
+  .col {margin-bottom: 30px;}
+  .club-logo {width: 100px;height: 100px;}
+  .club-text {font-size: 1rem;}
+  .footer {padding: 30px 20px;}
+  .footer-text {font-size: 1.5rem;text-align: center;}
+  .corner-cut {border-width: 0 0 60px 60px;}
+}
